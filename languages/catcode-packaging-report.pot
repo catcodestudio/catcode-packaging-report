@@ -1,0 +1,246 @@
+# Copyright (C) 2026 CatCode
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CatCode Packaging Report 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/catcode-packaging-report\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-26T19:37:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: catcode-packaging-report\n"
+
+#. Plugin Name of the plugin
+#: catcode-packaging-report.php
+msgid "CatCode Packaging Report"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: catcode-packaging-report.php
+msgid "https://catcode.com.ua/modules/packaging-report-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: catcode-packaging-report.php
+msgid "Records the packaging weight of every WooCommerce order by LUCID material type and turns it into the quantity report German shops file under the Packaging Act (VerpackG)."
+msgstr ""
+
+#. Author of the plugin
+#: catcode-packaging-report.php
+msgid "CatCode"
+msgstr ""
+
+#. Author URI of the plugin
+#: catcode-packaging-report.php
+msgid "https://catcode.com.ua"
+msgstr ""
+
+#: catcode-packaging-report.php:79
+msgid "CatCode Packaging Report requires WooCommerce."
+msgstr ""
+
+#: includes/Admin/ProductFields.php:34
+msgid "— Default profile —"
+msgstr ""
+
+#: includes/Admin/ProductFields.php:39
+msgid "Packaging profile"
+msgstr ""
+
+#: includes/Admin/ProductFields.php:42
+msgid "Sales packaging of this item. With nothing selected the default profile applies."
+msgstr ""
+
+#: includes/Admin/ProfilesPage.php:42
+#: templates/profiles.php:23
+msgid "Packaging profiles"
+msgstr ""
+
+#: includes/Admin/ProfilesPage.php:43
+msgid "Packaging"
+msgstr ""
+
+#: includes/Admin/ProfilesPage.php:139
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/Admin/ReportPage.php:36
+#: includes/Admin/ReportPage.php:37
+#: templates/report.php:22
+msgid "Packaging report"
+msgstr ""
+
+#: includes/Core/Materials.php:27
+msgid "Glass"
+msgstr ""
+
+#: includes/Core/Materials.php:28
+msgid "Paper, board, cardboard"
+msgstr ""
+
+#: includes/Core/Materials.php:29
+msgid "Ferrous metals"
+msgstr ""
+
+#: includes/Core/Materials.php:30
+msgid "Aluminium"
+msgstr ""
+
+#: includes/Core/Materials.php:31
+msgid "Plastics"
+msgstr ""
+
+#: includes/Core/Materials.php:32
+msgid "Beverage carton packaging"
+msgstr ""
+
+#: includes/Core/Materials.php:33
+msgid "Other composite packaging"
+msgstr ""
+
+#: includes/Core/Materials.php:34
+msgid "Other materials"
+msgstr ""
+
+#: templates/profiles.php:26
+msgid "Saved."
+msgstr ""
+
+#: templates/profiles.php:28
+msgid "Profile deleted."
+msgstr ""
+
+#: templates/profiles.php:30
+msgid "This version works with one packaging profile."
+msgstr ""
+
+#: templates/profiles.php:34
+msgid "A profile is one packaging setup with a weight per material type. Products point at a profile, so when the box changes you edit the profile instead of hundreds of products."
+msgstr ""
+
+#: templates/profiles.php:37
+msgid "Edit profile"
+msgstr ""
+
+#: templates/profiles.php:37
+msgid "New profile"
+msgstr ""
+
+#: templates/profiles.php:40
+msgid "The profile limit of this version has been reached."
+msgstr ""
+
+#: templates/profiles.php:49
+#: templates/profiles.php:81
+msgid "Name"
+msgstr ""
+
+#: templates/profiles.php:53
+msgid "e.g. box M with tape"
+msgstr ""
+
+#: templates/profiles.php:63
+msgid "Grams"
+msgstr ""
+
+#: templates/profiles.php:69
+msgid "Save profile"
+msgstr ""
+
+#: templates/profiles.php:69
+msgid "Create profile"
+msgstr ""
+
+#: templates/profiles.php:73
+msgid "Existing profiles"
+msgstr ""
+
+#: templates/profiles.php:76
+msgid "No profile created yet."
+msgstr ""
+
+#: templates/profiles.php:82
+msgid "Composition"
+msgstr ""
+
+#: templates/profiles.php:98
+msgid "empty"
+msgstr ""
+
+#: templates/profiles.php:102
+msgid "Edit"
+msgstr ""
+
+#: templates/profiles.php:104
+msgid "Delete"
+msgstr ""
+
+#: templates/profiles.php:111
+msgid "Default assignment"
+msgstr ""
+
+#: templates/profiles.php:117
+msgid "Default sales packaging"
+msgstr ""
+
+#: templates/profiles.php:125
+msgid "Applies to products without a profile of their own."
+msgstr ""
+
+#: templates/profiles.php:129
+msgid "Shipment packaging"
+msgstr ""
+
+#: templates/profiles.php:137
+msgid "Box, filling material and tape of the shipment."
+msgstr ""
+
+#: templates/profiles.php:140
+msgid "Count per line item instead of per order (bulky goods ship separately)"
+msgstr ""
+
+#: templates/profiles.php:145
+msgid "Save assignment"
+msgstr ""
+
+#: templates/report.php:27
+msgid "From"
+msgstr ""
+
+#: templates/report.php:29
+msgid "To"
+msgstr ""
+
+#: templates/report.php:31
+msgid "Show"
+msgstr ""
+
+#: templates/report.php:35
+msgid "The report goes back as far as the previous month."
+msgstr ""
+
+#. translators: 1: period start date, 2: period end date, 3: number of orders.
+#: templates/report.php:42
+#, php-format
+msgid "Period %1$s to %2$s, %3$d orders recorded."
+msgstr ""
+
+#: templates/report.php:53
+msgid "Material type"
+msgstr ""
+
+#: templates/report.php:54
+msgid "Quantity in kg"
+msgstr ""
+
+#: templates/report.php:69
+msgid "Nothing is recorded for this period. Recording starts from the moment the plugin is active, so orders placed before that are not included."
+msgstr ""
+
+#: templates/report.php:75
+msgid "These figures go into LUCID and into your dual system exactly as they stand here: kilograms with three decimals per material type. Once recorded, a figure no longer changes, even if you switch to a different box later on."
+msgstr ""
